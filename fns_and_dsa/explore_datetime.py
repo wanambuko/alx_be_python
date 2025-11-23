@@ -18,18 +18,4 @@ def calculate_future_date(current_date, days_to_add):
 
 def main():
     # Display current date and time
-    current_date_str = display_current_datetime()
-
-    # Ask user for number of days to add
-    while True:
-        try:
-            days_input = int(input("Enter the number of days to add to the current date: "))
-            break
-        except ValueError:
-            print("Please enter a valid integer.")
-
-    # Calculate future date
-    calculate_future_date(current_date_str, days_input)
-
-if __name__ == "__main__":
-    main()
+    current_dat_
